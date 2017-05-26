@@ -1,7 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);
+  /*background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);*/
+  background-color: #EAE0D5;
+  /*color: #331a00;*/
+  color: #4d2800;
 }
 
 header {
@@ -65,7 +68,8 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  /*color: #fbd1d5;*/
+  color: dimgray;
   text-shadow: none;
   background-color: #ffffff;
 }
@@ -76,7 +80,8 @@ section .row img {
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
+  /*background-color: #E8DFE0;*/
+  background-color: dimgray;
   color: #ffffff;
   margin: 0 0 30px;
 }
@@ -84,6 +89,8 @@ section .row img {
 footer {
   font-size: 12px;
   padding: 20px 0;
+  color: white;
+  background-color: #331a00;
 }
 
 footer .col-sm-8 {
