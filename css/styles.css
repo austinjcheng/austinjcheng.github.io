@@ -2,13 +2,16 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   /*background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);*/
-  background-color: #EAE0D5;
+  /*background-color: #EAE0D5;*/
   /*color: #331a00;*/
   color: #4d2800;
+  background-color: #331a00;
 }
 
 header {
   padding: 20px 0;
+  color: white;
+  
 }
 
 header .row,
@@ -58,6 +61,10 @@ header p {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+
+section {
+    background-color: #EAE0D5;
 }
 
 .col-md-6 {
