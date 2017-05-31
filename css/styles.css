@@ -66,9 +66,12 @@ section {
     background-color: #EAE0D5;
 }
 
-.col-md-6 {
+.col-md-10 {
   margin: 0 0 30px;
   position: relative;
+}
+.slide {
+  
 }
 
 .btn.btn-primary {
