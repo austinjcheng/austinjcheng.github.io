@@ -9,8 +9,12 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 10px 0;
   color: white;
+  background-color: #331a00;
+  position: fixed;
+  z-index: 2;
+  min-width: 100%;
 }
 
 header .row,
@@ -41,7 +45,7 @@ header p {
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
-  height: 500px;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
@@ -62,16 +66,16 @@ section .row img {
   width: 100%;
 }
 
-section {
+.text-body {
+    border-style: solid;
+    border-color: #8e7352;
+    padding: 20px 50px;
     background-color: #EAE0D5;
 }
 
 .col-md-10 {
   margin: 0 0 30px;
   position: relative;
-}
-.slide {
-  
 }
 
 .btn.btn-primary {
@@ -88,34 +92,62 @@ section {
   background-color: #fbd1d5;
 }
 
-.btn-secondary {
-  /*background-color: #E8DFE0;*/
-  background-color: dimgray;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
 .btn-header {
   color: #fff;
   font-size: 20px;
 }
 
 .btn-header:hover {
-    color: burlywood;
-    font-weight: 700;
+  color: burlywood;
+  font-weight: 700;
 }
 
 #header-logo {
-    font-size: 35px;
-    font-weight: 700;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.info-bar-left, .info-bar-right {
+  background-color: #8e7352;
+  color: white;
+  font-size: 120%;
+  padding: 10px 10px 10px 70px;
+  width: 110%;
+  border-style: solid;
+  border-color: #331a00;
+  border-width: 10px;
+}
+
+.info-bar-left {
+  position: relative;
+  right: 10%;
+}
+
+#csulb-bar {
+    height: 28em;
+}
+
+.info-bar-right {
+  position: relative;
+}
+
+#csulb-picture {
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    left: 62%
+}
+
+.csulb-text {
+    float: left;
 }
 
 .btn-footer {
-    color: #fff;
+  color: #fff;
 }
 
 .btn-footer:hover {
-    color: burlywood;
+  color: burlywood;
 }
 
 footer {
